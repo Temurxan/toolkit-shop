@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+ul {
+  list-style: none;
+  padding: 0 !important;
+  font-size: 20px !important;
+}
