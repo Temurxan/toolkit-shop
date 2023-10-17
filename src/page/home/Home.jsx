@@ -13,6 +13,7 @@ const Home = (props) => {
   
   return (
     <div className="d-flex gap-3 flex-wrap p-4">
+      <h1 className="text-center">G38 Shop</h1>
       {props.products.map((item) => (
         <div className="card w-25">
           <div className="card-header">{item.category}</div>
